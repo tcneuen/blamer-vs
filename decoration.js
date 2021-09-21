@@ -6,7 +6,7 @@ const decoration = {
   set(editor, line, commit) {
     const { enablePips } = vscode.workspace.getConfiguration("svn-gutter");
     const path =
-      vscode.extensions.getExtension("beaugust.blamer-vs").extensionPath;
+      vscode.extensions.getExtension("tcneuen.blamer-vs").extensionPath;
     let decoration;
 
     if (enablePips) {

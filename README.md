@@ -1,9 +1,11 @@
-[![](https://vsmarketplacebadge.apphb.com/version/beaugust.blamer-vs.svg)](https://marketplace.visualstudio.com/items?itemName=beaugust.blamer-vs)
-[![](https://vsmarketplacebadge.apphb.com/installs/beaugust.blamer-vs.svg)](https://marketplace.visualstudio.com/items?itemName=beaugust.blamer-vs)
+[![](https://vsmarketplacebadge.apphb.com/version/tcneuen.blamer-vs.svg)](https://marketplace.visualstudio.com/items?itemName=tcneuen.blamer-vs)
+[![](https://vsmarketplacebadge.apphb.com/installs/tcneuen.blamer-vs.svg)](https://marketplace.visualstudio.com/items?itemName=tcneuen.blamer-vs)
 
-# SVN Gutter
+# SVN Gutter (fork/tcneuen)
 
-This is the Visual Studio Code version of the [Blamer](https://github.com/BeauAgst/Blamer) plugin, built for Sublime Text. [Pull requests are always welcome!](https://github.com/BeauAgst/blamer-vs/issues/)
+This is the Visual Studio Code version of the [Blamer](https://github.com/BeauAgst/Blamer) plugin, built for Sublime Text and a published fork of the [original from BeauAgst](https://github.com/BeauAgst/blamer-vs) due to inactivity.
+
+[Pull requests are always welcome!](https://github.com/tcneuen/blamer-vs/issues/)
 
 ## Commands:
 
@@ -44,7 +46,9 @@ This extension requires that you're either:
 
 ## Known Issues
 
-- A little bit slow, because all unique logs have to be retrieved first. ([#3](https://github.com/BeauAgst/blamer-vs/issues/3))
+### From upstream
+
+- When detail is enabled, can be slow, because all unique logs have to be retrieved first. ([#3](https://github.com/BeauAgst/blamer-vs/issues/3))
 - Authentication errors [#5](https://github.com/BeauAgst/blamer-vs/issues/5), [#9](https://github.com/BeauAgst/blamer-vs/issues/9)
 
 ## Future features

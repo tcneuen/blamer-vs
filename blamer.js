@@ -16,7 +16,7 @@ const blamer = {
     this.destroy();
     this.editor = vscode.window.activeTextEditor;
     this.extensionPath =
-      vscode.extensions.getExtension("beaugust.blamer-vs").extensionPath;
+      vscode.extensions.getExtension("tcneuen.blamer-vs").extensionPath;
     this.statusBarItem = vscode.window.createStatusBarItem(
       vscode.StatusBarAlignment.Left,
       0
