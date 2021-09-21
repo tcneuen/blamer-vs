@@ -2,7 +2,7 @@
   "name": "blamer-vs",
   "displayName": "SVN Gutter (fork/tcneuen)",
   "description": "Visually blame SVN-stored code line-by-line",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "publisher": "tcneuen",
   "repository": {
     "type": "git",
