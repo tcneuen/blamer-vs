@@ -56,13 +56,16 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+    "vscode:prepublish": "npm run esbuild-base -- --minify",
+    "esbuild-base": "esbuild ./extension.js --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
+    "esbuild": "npm run esbuild-base -- --sourcemap",
+    "esbuild-watch": "npm run esbuild-base -- --sourcemap --watch"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.11",
     "@types/vscode": "^1.60.0",
+    "esbuild": "^0.12.28",
     "eslint": "^6.6.0",
     "mocha": "^6.2.2",
     "prettier": "^2.4.1",
